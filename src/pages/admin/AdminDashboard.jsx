@@ -1,8 +1,8 @@
 import { Users, Package, ShoppingBag, MessageSquare, TrendingUp, TrendingDown, Activity, UserPlus, ListPlus, CheckCircle, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { adminStats, recentActivities } from '../data/services';
-import { users } from '../data/users';
-import { products } from '../data/products';
+import { adminStats, recentActivities } from '../../data/services';
+import { users } from '../../data/users';
+import { products } from '../../data/products';
 
 export default function AdminDashboard() {
   const formatNumber = (num) => {
